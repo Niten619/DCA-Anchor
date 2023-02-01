@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.devnet]
+dca_anchor = "FdHNRbJV4TypBrgjHhsB7EuUFScQ2SQnyTh8w3FQbMcg"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/nitenl619/.config/solana/id.json"
+
+[scripts]
+dca = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
