@@ -5,3 +5,5 @@ target
 **/*.rs.bk
 node_modules
 test-ledger
+my_market
+test_wallets

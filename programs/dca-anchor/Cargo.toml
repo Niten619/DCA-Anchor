@@ -18,3 +18,7 @@ default = []
 [dependencies]
 anchor-lang = {version = "0.26.0", features = ["init-if-needed"]}
 anchor-spl = "0.26.0"
+spl-token = { version = "~3.5.0", features = ["no-entrypoint"] }
+#amm-anchor = {path = "../../amm-anchor"}
+solana-program = "~1.13.2"
+raydium-contract-instructions = { path = "../../lib"}
